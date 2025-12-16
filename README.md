@@ -2,11 +2,11 @@
 # Author: Aravind G | airmailpod@gmail.com
 # 🎨 Visual Repo Structure:
 SCA-SHIELD/
-├── 🔴  SAST/          # Static Code Warriors
-├── 🟢  DAST/          # Dynamic Attack Sims  
-├── 🔵  IAST/          # Interactive Runtime Guards
-├── 🟡  SCA/           # Dependency Fortress
-├── ⚡  hybrid         # Your MP+Threading Beast
-├── 🚀  CI-CD/         # Pipeline Launchpad
-└── 🛠️  UTILS/         # Magic Utilities
+├── 🔴  SAST/          # Static Code Warriors </br>
+├── 🟢  DAST/          # Dynamic Attack Sims  </br>
+├── 🔵  IAST/          # Interactive Runtime Guards </br>
+├── 🟡  SCA/           # Dependency Fortress </br>
+├── ⚡  hybrid         # Your MP+Threading Beast </br>
+├── 🚀  CI-CD/         # Pipeline Launchpad </br>
+└── 🛠️  UTILS/         # Magic Utilities </br>
 └── 💎  ASSETS/        # Meta,Binary Utilities, Icons, diagrams, reports, dashboards
