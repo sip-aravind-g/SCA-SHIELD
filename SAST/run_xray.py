@@ -2,12 +2,12 @@
 """
 Hybrid Multiprocessing + Threading Image Scanner
 Author: Aravind G | Hybrid Cloud DevSecOps Senior Cloud Engineer
-Email: ezsecops@xxx.com
+Email: ezsecops@hpe.com
 
 Purpose:
     - Scan path: EUA/components/1.5.4/
-    - Scan path: AIE/components/1.5.4/
-    - Scan path: ERE/components/1.5.4/
+    - Scan path: AIE/components/1.11.0/
+    - Scan path: ERE/components/5.7.3/
     - Each folder contains IMAGES file
     - Each IMAGES file contains docker image names
     - For each image_name → trigger Jenkins job: xray_scan_job
@@ -165,13 +165,12 @@ class ImageScanExecutor:
 
 
 #MAIN============================================================================
-
 if __name__ == "__main__":
 
-    BASE_DIR = "/components/1.5.4/"
-    JENKINS_URL = "https://X0.X27.X08.X84:8443"
-    USER = "XXXXXX"
-    TOKEN = "11d541b5af6d56935638f733XXXXXX"
+    BASE_DIR = "<file-path>######-######-######/components/1.5.5/"
+    JENKINS_URL = "######-######-######"
+    USER = "######-######-######"
+    TOKEN = "######-######-######"
     JOB_NAME = "xray_scan_images"
 
     executor = ImageScanExecutor(
